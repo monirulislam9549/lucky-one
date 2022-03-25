@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "623df34958bf67f4e331d1d9",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Hogan Workman",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349fa9477c9b43c333b",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Noemi Anthony",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349b1d11ed80f351677",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Carrillo Oneil",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349fd8b4df2aef5b8be",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Best Stafford",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349d17a383148cff9cd",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Joy Emerson",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349eb9ea178761c8eca",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Lang Dyer",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349acbecad62835a62d",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Lindsey Hodges",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349d4c8b9f33cdefe79",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Levine Rush",
+        "price": "<ReferenceError: price is not defined>"
+    },
+    {
+        "_id": "623df349f146e4f859e32b41",
+        "picture": "https://static-01.daraz.com.bd/p/189a7d07e3c114f380e7c13a414b892e.jpg",
+        "name": "Fernandez Miller",
+        "price": "<ReferenceError: price is not defined>"
+    }
+]
