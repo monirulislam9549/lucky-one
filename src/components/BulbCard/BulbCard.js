@@ -1,9 +1,11 @@
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './BulbCard.css';
 
-const BulbCard = (props) => {
+const BulbCard = ({ light, addToCart }) => {
 
-    const { name, img, price, id } = props.light
+    const { name, img, price, id } = light
 
     return (
         <div className='picture'>
@@ -13,8 +15,9 @@ const BulbCard = (props) => {
                 <p>Price: ${price}</p>
                 <p>Light ID: {id}</p>
             </div>
-            <button onClick={() => props.addToCart(props.light)} className='btn-cart'>
-                <p>Add To Cart</p>
+            <button onClick={() => addToCart(light)} className='btn-cart'>
+                <p className='btn-text'>Add To Cart</p>
+                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
     );

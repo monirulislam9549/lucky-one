@@ -4,6 +4,7 @@ import './BulbShop.css'
 
 const BulbShop = () => {
     const [lights, setLights] = useState([])
+    const [cart, setCart] = useState([])
 
     useEffect(() => {
         fetch('data.json')
@@ -13,6 +14,8 @@ const BulbShop = () => {
 
     const addToCart = (light) => {
         console.log(light.name);
+        const newLightCart = [...cart, light]
+        setCart(newLightCart)
     }
 
     return (
@@ -28,6 +31,7 @@ const BulbShop = () => {
             </div>
             <div className='show-light-name'>
                 <h1> Selected Light Items</h1>
+                <p>Selected Light Name :{cart.name}</p>
             </div>
         </div>
     );
