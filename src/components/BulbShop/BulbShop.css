@@ -1,13 +1,16 @@
 .light-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+   
 }
 .show-light-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
     margin: 100px 50px;
+    
 }
+
 
 /* @media screen and (min-width: 768px) {
     .show-light-card{

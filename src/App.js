@@ -9,6 +9,7 @@ function App() {
     <div>
       <Bulb></Bulb>
       <BulbShop></BulbShop>
+
     </div>
   );
 }
