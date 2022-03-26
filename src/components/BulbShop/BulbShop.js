@@ -19,7 +19,7 @@ const BulbShop = () => {
         setCart(newLightCart)
     }
 
-    const lightName = () => { }
+
 
     return (
         <div className='light-container'>
