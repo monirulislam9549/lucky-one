@@ -1,3 +1,7 @@
-.batti{
-    text-align: center;
+.light{
+    text-align: center;   
+    padding: 10px 0px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
 }

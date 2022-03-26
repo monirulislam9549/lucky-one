@@ -1,0 +1,42 @@
+.picture{
+    width: 300px;
+    height: 450px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+
+}
+.picture img{
+    height: 286px;
+    width: 286px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.light-info{
+    margin: 0 14px;
+}
+
+.light-info p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.light-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+}
+.btn-transport{
+    width: 100%;
+    background-color: rgb(113, 113, 240);
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0px;
+}
+.btn-transport:hover{
+    background-color: aqua;
+}
