@@ -39,7 +39,6 @@ const BulbShop = () => {
                 <p>Selected Light Name :{cart.length}</p>
             </div>
 
-
             <div>
                 <h1>Question:1 Difference between Props vs State</h1>
                 <h3>Props</h3>
@@ -59,9 +58,7 @@ const BulbShop = () => {
                 <h1>Question:3 How react works?</h1>
                 <p>React reads these objects and uses them to create HTML elements on the virtual DOM, after which it gets synced with the real DOM. So we'll have trees of objects on the virtual DOM and trees of objects on the real DOM. React automatically updates the associated DOM element when we change data on a React element.</p>
             </div>
-
         </div>
-
     );
 };
 
