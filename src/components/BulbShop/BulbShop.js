@@ -38,6 +38,8 @@ const BulbShop = () => {
                 <h1> Selected Light Items</h1>
                 <p>Selected Light Name :{cart.length}</p>
             </div>
+
+
             <div>
                 <h1>Question:1 Difference between Props vs State</h1>
                 <h3>Props</h3>

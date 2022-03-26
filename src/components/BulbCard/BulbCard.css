@@ -1,18 +1,23 @@
 .picture{
     width: 300px;
     height: 470px;
-    border: 1px solid #95A0A7;
-    border-radius: 8px;
+   border: 3px solid white;
+    border-radius: 15px;
     position: relative;
-
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+    
 }
 .picture img{
     height: 286px;
     width: 286px;
     border-radius: 10px;
     margin: 7px;
+    transition: 0.4s;    
 }
 
+.picture img:hover{
+    transform: scale(1.1);
+}
 .light-info{
     margin: 0 14px;
 }

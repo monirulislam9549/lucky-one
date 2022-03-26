@@ -1,19 +1,24 @@
 .light-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    
    
 }
 .show-light-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
-    margin: 100px 50px;
+    margin: 100px 50px;   
+}
+
+.show-light-name{
+    background-color: blanchedalmond;
+    padding: 10px;
     
 }
 
-
-/* @media screen and (min-width: 768px) {
+@media(max-width: 768px) {
     .show-light-card{
         grid-template-columns: repeat(1, 1fr);
     }
-} */
+}
