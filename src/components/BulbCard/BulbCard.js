@@ -2,7 +2,9 @@ import React from 'react';
 import './BulbCard.css';
 
 const BulbCard = (props) => {
+
     const { name, img, price, id } = props.light
+
     return (
         <div className='picture'>
             <img src={img} alt="" />
@@ -11,8 +13,8 @@ const BulbCard = (props) => {
                 <p>Price: ${price}</p>
                 <p>Light ID: {id}</p>
             </div>
-            <button className='btn-transport'>
-                <p>Transport</p>
+            <button onClick={() => props.addToCart(props.light)} className='btn-cart'>
+                <p>Add To Cart</p>
             </button>
         </div>
     );
