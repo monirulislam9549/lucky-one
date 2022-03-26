@@ -1,4 +1,4 @@
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './BulbCard.css';
@@ -17,7 +17,7 @@ const BulbCard = ({ light, addToCart }) => {
             </div>
             <button onClick={() => addToCart(light)} className='btn-cart'>
                 <p className='btn-text'>Add To Cart</p>
-                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
             </button>
         </div>
     );
